@@ -1,6 +1,6 @@
 {
   "name": "javascript-unwind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A very simple native function for unwinding a collection by a property, like MongoDB's $unwind function.",
   "main": "index.js",
   "scripts": {
