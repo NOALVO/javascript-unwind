@@ -1,0 +1,27 @@
+{
+  "name": "javascript-unwind",
+  "version": "1.0.1",
+  "description": "A very simple native function for unwinding a collection by a property, like MongoDB's $unwind function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOALVO/javascript-unwind.git"
+  },
+  "keywords": [
+    "unwind",
+    "native",
+    "array",
+    "javascript",
+    "object",
+    "collection"
+  ],
+  "author": "NOALVO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NOALVO/javascript-unwind/issues"
+  },
+  "homepage": "https://github.com/NOALVO/javascript-unwind#readme"
+}
