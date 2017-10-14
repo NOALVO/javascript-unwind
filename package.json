@@ -4,7 +4,8 @@
   "description": "A very simple native function for unwinding a collection by a property, like MongoDB's $unwind function.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/NOALVO/javascript-unwind/issues"
   },
-  "homepage": "https://github.com/NOALVO/javascript-unwind#readme"
+  "homepage": "https://github.com/NOALVO/javascript-unwind#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
