@@ -1,17 +1,17 @@
 # javascript-unwind
 A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
-# Features 
+## Features 
 * **This function is immutable.** Your original collection doesn't change.
 * **It works for both primitives and complex values**.
 
-# Installation
+## Installation
 
 ```
 $ npm i javascript-unwind --save
 ```
 
-# How to use
+## How to use
 
 ```javascript
   const unwind = require('javascript-unwind');
