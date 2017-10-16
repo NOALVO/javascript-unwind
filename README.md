@@ -1,8 +1,10 @@
 # javascript-unwind
-A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
-Current version: `1.1.1`  
-JavaScript compatibility: `ES2016+`
+![Current npm version](https://img.shields.io/npm/v/javascript-unwind.svg) 
+![Current npm download count](https://img.shields.io/npm/dt/javascript-unwind.svg)
+![Compatible with ECMAScript 2016 and greater](https://img.shields.io/badge/ECMAScript-2016%2B-orange.svg)
+
+A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
 ## Features
 * **This function is immutable.** Your original collection doesn't change.
@@ -150,7 +152,6 @@ Output:
 ]
 ```
 
-## Roadmap
+## Roadmap and Bugs
 
-- [ ] More unit tests
-- [ ] Better documentation
+See [Issues](https://github.com/NOALVO/javascript-unwind/issues).
