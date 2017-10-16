@@ -1,5 +1,5 @@
 # javascript-unwind
-A very simple native function for unwinding acollection by aproperty, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
+A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
 Current version: `1.1.0`
 
@@ -16,7 +16,7 @@ $ npm i javascript-unwind --save
 
 ## How to use
 
-### Single-level
+### Shallow level
 
 ```javascript
   const unwind = require('javascript-unwind');
@@ -38,7 +38,7 @@ Output:
  { a: { x: 4 }, b: 785, c: 368 } ]
 ```
 
-### Deep levels
+### Deep level
 
 ```javascript
   const unwind = require('javascript-unwind');
