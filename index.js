@@ -31,6 +31,3 @@ function unwindDeep(array, path) {
     []);
   return unwind(result, prop);
 }
-
-
-// let collection = [ { nome: 'Espaço 1', precificacoes: [ { nome: 'Precificação 1', formatos: [ { nome: 'Formato 1' }, { nome: 'Formato 2' } ] }, { nome: 'Precificação 2', formatos: [ { nome: 'Formato 3' }, { nome: 'Formato 4' } ] }, ], }, { nome: 'Espaço 2', precificacoes: [ { nome: 'Precificação 3', formatos: [ { nome: 'Formato 4' }, { nome: 'Formato 5' } ], }, { nome: 'Precificação 4', formatos: [ { nome: 'Formato 6' }, { nome: 'Formato 7' } ], }, ], }, ];
