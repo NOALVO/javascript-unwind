@@ -1,7 +1,8 @@
 # javascript-unwind
 A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
-Current version: `1.1.0`
+Current version: `1.1.1`  
+JavaScript compatibility: `ES2016+`
 
 ## Features
 * **This function is immutable.** Your original collection doesn't change.
@@ -13,6 +14,8 @@ Current version: `1.1.0`
 ```
 $ npm i javascript-unwind --save
 ```
+
+>  :warning: **Watch for compatibility!** javascript-unwind is only compatible with ES2016+. If you would like to use it in your browser or webpack, you should use it with Babel and [babel-preset-es2016](https://www.npmjs.com/package/babel-preset-es2016) or greater.
 
 ## How to use
 

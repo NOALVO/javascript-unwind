@@ -7,10 +7,10 @@ function unwind(array, path) {
   if (path.indexOf('.') !== -1) {
     return unwindDeep(array, path);
   }
-  return unwindSingle(array, path);
+  return unwindShallow(array, path);
 }
 
-function unwindSingle(array, prop) {
+function unwindShallow(array, prop) {
   return array
     .reduce((acc, curr) => [...acc, ...curr[prop]
       .map(x => Object
@@ -20,9 +20,9 @@ function unwindSingle(array, prop) {
 }
 
 function unwindDeep(array, path) {
-  let shifted = path.split('.');
-  let prop = shifted.shift();
-  nextLevel = shifted.join('.');
+  const shifted = path.split('.');
+  const prop = shifted.shift();
+  const nextLevel = shifted.join('.');
   const result = array
     .reduce((acc, curr) => [...acc, ...curr[prop]
       .map(x => Object
