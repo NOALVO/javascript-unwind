@@ -1,6 +1,6 @@
 'use strict';
 
-;(function index() {
+;(function () {
   function unwind(array, path) {
     if (!array.length) {
       array = [array];
@@ -76,5 +76,7 @@
     // Export to the global object.
     root.unwind = unwind;
   }
+
+  return unwind;
 
 }.call(this));
