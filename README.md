@@ -1,7 +1,7 @@
 # javascript-unwind
 A very simple native function for unwinding acollection by aproperty, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
-Current version: `1.0.4`
+Current version: `1.1.0`
 
 ## Features
 * **This function is immutable.** Your original collection doesn't change.
