@@ -150,7 +150,6 @@ Output:
 ]
 ```
 
-## Roadmap
+## Roadmap and Bugs
 
-- [ ] More unit tests
-- [ ] Better documentation
+See [Issues](https://github.com/NOALVO/javascript-unwind/issues).
