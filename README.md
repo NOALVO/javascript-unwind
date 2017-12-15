@@ -2,8 +2,8 @@
 
 ![Current npm version](https://img.shields.io/npm/v/javascript-unwind.svg) 
 ![Current npm download count](https://img.shields.io/npm/dt/javascript-unwind.svg)
-[![CircleCI](https://circleci.com/gh/NOALVO/javascript-unwind.svg?style=svg)](https://circleci.com/gh/NOALVO/javascript-unwind)
-![Compatible with ECMAScript 2016 and greater](https://img.shields.io/badge/ECMAScript-2016%2B-orange.svg)
+[![CircleCI](https://img.shields.io/circleci/project/github/NOALVO/javascript-unwind.svg)](https://circleci.com/gh/NOALVO/javascript-unwind)
+![Compatible with ES5 and greater](https://img.shields.io/badge/ES5-compatible-orange.svg)
 
 A very simple native function for unwinding a collection by a property, like MongoDB's [`$unwind`](https://docs.mongodb.com/manual/reference/operator/aggregation/unwind/) function.
 
