@@ -11,16 +11,13 @@ A very simple native function for unwinding a collection by a property, like Mon
 * **This function is immutable.** Your original collection doesn't change.
 * **It works for both primitives and complex values**.
 * **It works for nested arrays, using dot-notation.** Like `a.b.c`.
+* **It works in ES5-compatible environments**, without transpiling.
 
 ## Installation
 
 ```
 $ npm i javascript-unwind --save
 ```
-
->  :warning: **Watch for compatibility!** javascript-unwind is only compatible with ES2016+. If you would like to use it in your browser, you should use it with Babel and [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) or greater.
-
-> **Webpack users**: due to some unidentified reason, if you use webpack with babel, you need a workaround to make it work using ES6 module importing. See issue [#5](https://github.com/NOALVO/javascript-unwind/issues/5).   
 
 ## How to use
 
