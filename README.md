@@ -12,6 +12,7 @@ A very simple native function for unwinding a collection by a property, like Mon
 * **It works for both primitives and complex values**.
 * **It works for nested arrays, using dot-notation.** Like `a.b.c`.
 * **It works in ES5-compatible environments**, without transpiling.
+* **Typings available** for TypeScript.
 
 ## Installation
 
